@@ -14,7 +14,6 @@ namespace ApplicationRectangle
         private double Hauteur;
 
         #endregion
-
         #region Get & Set
         public double GetLargeur()
         {

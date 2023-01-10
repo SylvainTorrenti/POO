@@ -9,8 +9,6 @@ Rectangle Rect2 = new Rectangle();
 Rect2.SetLargeur(4);
 Rect2.SetHauteur(17.3);
 #endregion
-
-
 #region Use Get Set
 Console.WriteLine($"Hauteur du rectangle 1 {Rect1.GetHauteur()}");
 Console.WriteLine(Rect2.GetHauteur()); 
