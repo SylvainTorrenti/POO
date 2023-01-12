@@ -45,7 +45,7 @@ namespace ApplicationRectangle
         #region Method
         public double Surface()
         {
-            return Largeur * Hauteur;
+            return Width * Height;
         }
         #endregion
     }
