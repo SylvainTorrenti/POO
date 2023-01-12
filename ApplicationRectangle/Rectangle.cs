@@ -26,21 +26,21 @@ namespace ApplicationRectangle
         /// <param name="height">Hauteur</param>
         public Rectangle(double width, double height)
         {
-            Largeur = width;
-            Hauteur = height;
-        } 
+            Width = width;
+            Height = height;
+        }
         #endregion
         #region Get & Set Largeur
         /// <summary>
-        /// La Largeur du rectangle
+        /// Width recutangle
         /// </summary>
-        public double Largeur { get => _Largeur; set => _Largeur = value; }
+        public double Width { get => _width; set => _width = value; }
         #endregion
         #region Get & Set Hauteur     
         /// <summary>
-        /// La Hauteur du Rectangle
+        /// Height of Recutangle
         /// </summary>
-        public double Hauteur { get => _Hauteur; set => _Hauteur = value; } 
+        public double Height { get => _height; set => _height = value; }
         #endregion
         #region Method
         public double Surface()
