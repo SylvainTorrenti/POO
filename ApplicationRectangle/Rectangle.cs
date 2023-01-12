@@ -9,50 +9,27 @@ namespace ApplicationRectangle
     internal class Rectangle
     {
         #region Attribute
-
-        private double Largeur;
-        private double Hauteur;
-
+        private double _Largeur;
+        private double _Hauteur;
         #endregion
-        #region Get & Set
-        public double GetLargeur()
-        {
-            return Largeur;
-        }
-        public void SetLargeur(double Largeur)
-        {
-            if (Largeur < 0)
-            {
-                Console.WriteLine("La valeur ne peut pas être <0");
-            }
-            else
-            {
-                this.Largeur = Largeur;
-            }
-
-        }
-        public double GetHauteur()
-        {
-            return Hauteur;
-        }
-        public void SetHauteur(double Hauteur)
-        {
-            if (Hauteur < 0)
-            {
-                Console.WriteLine("La valeur ne peut pas être <0");
-            }
-            else
-            {
-                this.Hauteur = Hauteur;
-            }
-
-        } 
+        #region Get & Set Largeur
+        /// <summary>
+        /// La Largeur du rectangle
+        /// </summary>
+        public double Largeur { get => _Largeur; set => _Largeur = value; }
         #endregion
+        #region Get & Set Hauteur     
+        /// <summary>
+        /// La Hauteur du Rectangle
+        /// </summary>
+        public double Hauteur { get => _Hauteur; set => _Hauteur = value; } 
+        #endregion
+
         #region Method
         public double Surface()
         {
             return Largeur * Hauteur;
-        } 
+        }
         #endregion
     }
 }
