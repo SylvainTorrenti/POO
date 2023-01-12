@@ -14,5 +14,6 @@ Console.WriteLine($"La Largeur est de {Rect1.Height}");
 #endregion
 #region Use method
 Console.WriteLine($"Surface du rectangle {Rect1.Surface()}");
-Console.WriteLine($"Surface du rectangle {Rect2.Surface()}"); 
+Console.WriteLine($"Surface du rectangle {Rect2.Surface()}");
+Console.WriteLine($"Il y a {Rectangle.RecutangleNb} rectangles créés");
 #endregion
